@@ -1,0 +1,64 @@
+*{
+    margin: 0%;
+    text-decoration: none;
+    cursor: default;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    background-color: gray;  
+    color:#fff;
+   padding-bottom: 3%;
+}
+.menu{
+    display: flex;            
+                          
+    
+}
+.menu ul {
+     display: inline-flex;
+    list-style: none;
+    text-transform: uppercase;
+    padding: 5%;
+    margin-left: 15%;
+    list-style-type: none ; 
+}
+.menu ul li {
+    list-style-type: none;
+    cursor: pointer;
+    padding: 7%;
+}
+.menu ul li a{
+list-style-type: none;
+cursor: pointer;
+text-decoration: none;
+}
+#logo{
+color:#da491c ;
+margin-right: 70%;
+font-size: x-large;
+}
+hr{
+    color:#da491c ;
+    width: 5%;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2%;
+}
+h2{
+    text-transform: uppercase; 
+    justify-content: center;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+p{
+    justify-content: center;
+    text-align: center;
+    margin-top: 2%;
+}
+.partie2{
+    background-color: lightgray;
+}
+.ivan{
+    padding: 3%;
+    font-family: 'Raleway', sans-serif;
+}

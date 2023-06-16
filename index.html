@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Raleway:wght@500&display=swap');
+        </style>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+<header >
+    <div class="menu">
+   <nav>
+    <ul>
+        <li id="logo"><strong>SALEM</strong> </li>
+        <li>OUR SPECIALITY</li>
+        <li>OUR TEAM</li>
+        <li><a href="work.html">WORK</a></li>
+        <li>BLOG</li>
+        <li>CONTACT</li>
+    </ul>
+   </nav>
+</div>
+<h2>We love to write code</h2>
+<hr style="background-color: #da491c;margin-left: 45%;">
+<p>Salem is a new and modern agency, designed and aimed at satisfying <br> our clients to showcase your products and services in a new and <br> creative way</p>
+</header>
+
+<div class="partie2">
+    <div id="row1">
+     <img src="../Examen Html Css et Jquery/images/homeee.png" alt="">
+    </div>
+
+</div>
+
+<div class="partie3">
+<h3 style="text-transform: uppercase;">Trusted Brands & Clients </h3>
+<p>Case read they must it of cold that. Speaking trifling an to unpacked moderate debating learning. An particular contrasted he excellence favourable on. Nay <br> preference dispatched difficulty continuing joy one.</p>
+<img class="banner" src="../Examen Html Css et Jquery/images/home.png" alt="">
+</div>
+
+<div class="partie4">
+<p> “Case read they must it of cold that. Speaking trifling an to unpacked moderate <br>debating learning. An particular contrasted he excellence favourable on.”
+    </p>
+   <p style="color: #da491c;">Daniel Jacobs / Big Company, LLC</p> 
+</div>
+ 
+<footer>
+<img src="../Examen Html Css et Jquery/images/social.png" alt="">
+</footer>
+<script>
+     // Modifier la couleur du texte au survol
+  $("menu").hover(function() {
+    $(this).css("white", "#da491c");
+  }, function() {
+    $(this).css("white", "#da491c");
+  });
+
+  /*effet click changement de couleur header*/
+var colors = [ "#222f3e", "#f368e0","#ff0000","#fff","#00FF00","#0000FF","#fe6" ];
+var i = 0;
+var elements = document.querySelectorAll("header");
+
+document.querySelector("#logo").addEventListener("click", function() {
+  i = i < colors.length ? ++i : 0;
+  for (var j = 0; j < elements.length; j++) {
+    elements[j].classList.toggle("bg-color", true);
+    elements[j].style.backgroundColor = colors[i];
+  }
+});
+</script>
+</body>
+</html>
